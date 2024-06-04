@@ -28,6 +28,12 @@
   margin: auto;
   padding: 5rem 1rem;
 }
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .section__header {
   margin-bottom: 1rem;
