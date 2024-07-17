@@ -76,3 +76,4 @@ Array.from(instagram.children).forEach((item) => {
   duplicateNode.setAttribute("aria-hidden", true);
   instagram.appendChild(duplicateNode);
 });
+

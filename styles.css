@@ -578,3 +578,9 @@ nav {
     gap: 2rem;
   }
 }
+/* form  */
+.error{
+  color: red;
+  font-size: 12px;
+  float: left;
+}
