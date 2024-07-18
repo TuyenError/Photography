@@ -15,7 +15,7 @@ session_start();
   <!-- Google reCAPTCHA -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://www.google.com/recaptcha/api.js?render=6LeQIAEqAAAAAOmPO-298SpcJ4A_Drenp-SZDEbS"></script>
-   
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -41,8 +41,8 @@ session_start();
   <!-- Popper.js (for Bootstrap 4) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 
-    <!-- Toastr JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <!-- Toastr JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
   <script src="validateFormContact.js"></script>
 
@@ -240,7 +240,7 @@ session_start();
 
   <section class="blog" id="blog">
     <div class="section__container blog__container ">
-      <div class="blog__content">
+      <div class="blog__content mr-5">
         <h2 class="section__header">~ LATEST BLOG ~</h2>
         <h4>Capturing Emotion in Every Frame</h4>
         <p>
@@ -257,9 +257,8 @@ session_start();
           </a>
         </div>
       </div>
-
       <!-- form  -->
-      <div class="blog__content mt-5">
+      <div class="blog__content mt-3">
         <div class="card card-primary">
           <div class="card-header" style=" background-color: #212529;">
             <h3 class="card-title text-center" style="float: none;">Contact us</h3>
@@ -341,6 +340,9 @@ session_start();
           </form>
         </div>
       </div>
+
+
+
     </div>
 
     </div>

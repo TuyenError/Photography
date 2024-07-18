@@ -550,9 +550,9 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .blog__content {
+  /* .blog__content {
     grid-column: 2/3;
-  }
+  } */
 
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
