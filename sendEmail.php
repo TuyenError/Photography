@@ -18,7 +18,7 @@ function send_password_reset()
         $phone = $_POST['phone_number'];
         $subject = $_POST['subject'];
         $message = $_POST['message'];
-        $photo_email = 'yam532004@yopmail.com';
+        $photo_email = 'tuyenerror.ks@gmail.com';
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com'; // Set the SMTP server to send through
         $mail->SMTPAuth   = true; // Enable SMTP authentication
@@ -37,7 +37,7 @@ function send_password_reset()
         $mail->Subject = 'Contact with photographer';
         $mail->Body = "
         <h2>Contact with photographer</h2>
-        <p>Hello Photographer </p>
+        <p>Hello Tuyen Error </p>
         <p>You are receiving this email because <i>$name</i> want to provide you some information.</p>
         <p><b>Email: </b>$email</p>
         <p><b>Phone number: </b>$phone</p>
