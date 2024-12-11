@@ -15,6 +15,8 @@
   box-sizing: border-box;
 }
 
+
+
 .custom-link img {
     width: 100px;
     height: 100px; 
@@ -275,6 +277,62 @@ nav {
   line-height: 1.75rem;
 }
 
+
+
+.price {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("assets/service.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.price__container .price__header {
+  color: var(--white);
+}
+
+.price__container .price__description {
+  max-width: 600px;
+  margin-inline: auto;
+  color: var(--extra-light);
+}
+
+.price__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.price__card {
+  text-align: center;
+}
+
+.price__card h4 {
+  position: relative;
+  isolation: isolate;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  font-family: var(--header-font);
+  color: var(--white);
+}
+
+.price__card h4::after {
+  position: absolute;
+  content: "~";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  line-height: 0;
+}
+
+.price__card p {
+  color: var(--extra-light);
+  line-height: 1.75rem;
+}
+
 .client__container {
   padding-bottom: 2rem;
 }
@@ -374,6 +432,66 @@ nav {
   background-color: transparent;
   border: 1px solid var(--white);
 }
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Khoảng cách giữa hai nút */
+  margin-top: 20px;
+}
+.blog__btn .btn {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Màu nền khi hover */
+.blog__btn .btn:hover {
+  background-color: #808080; /* Màu xám khi hover */
+  color: white; /* Đảm bảo chữ có màu trắng khi hover */
+}
+
+.price__btn .btn, .Messenger__btn .btn {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.price__btn .btn {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Màu nền khi hover */
+.price__btn .btn:hover {
+  background-color: #808080; /* Màu xám khi hover */
+  color: white; /* Đảm bảo chữ có màu trắng khi hover */
+}
+.Messenger__btn .btn {
+  background-color: #2996FF; /* Màu nền mặc định của nút "CHAT ME" */
+  color: white;
+}
+
+/* Màu sắc khi hover trên nút Messenger */
+.Messenger__btn .btn:hover {
+  background: linear-gradient(135deg, #DE3DEC 0%, #2996FF 100%);
+  color: white;
+}
+
+.Messenger__btn .btn:active {
+  background: linear-gradient(135deg, #DE3DEC 0%, #2996FF 100%);
+  color: white;
+}
+
+.Messenger__btn .btn:focus {
+  outline: none; /* Loại bỏ đường viền mặc định */
+}
+
 
 .instagram__container {
   overflow: hidden;
@@ -577,4 +695,80 @@ nav {
   .portfolio__grid {
     gap: 2rem;
   }
+}
+
+
+
+.contact h2 {
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ .contact form {
+  width: 600px;
+  text-align: center;
+}
+
+ form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+.input-box .input-field{
+  width: 48.5%;
+}
+
+
+.field .item{
+width: 100%;
+padding: 18px;
+background: transparent;
+border: 2px solid #0ef;
+outline: none;
+border-radius: 6px;
+font-size: 16px;
+color: #ededed;
+margin: 12px 0;
+}
+
+.field .item ::placeholder {
+  color: rgba(255, 255, 255, .3);
+}
+.field .error-txt{
+  font-size: 14.5px;
+  color: #d93025;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
+form .textarea-field .item {
+  resize: none;
+}
+
+form .textarea-field .error-txt{
+  margin-top: -10px;
+}
+
+
+
+form button {
+padding: 12px 32px;
+background: #0ef;
+border: none;
+outline: none;
+border-radius: 6px;
+box-shadow: 0 0 10px #0ef;
+font-size: 16px;
+color: #333;
+letter-spacing: 1px;
+font-weight: 600;
+cursor: pointer;
+margin-top: 20px;
+transition: .5s;
+}
+
+form button:hover{
+  box-shadow: none;
 }
